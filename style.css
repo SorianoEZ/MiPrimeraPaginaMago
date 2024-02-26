@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(110, 98, 98);
+}
+a {
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+img {
+    width: 150px;
+}
+
+h1 {
+    font-size: 38px;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    color:black;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(163, 159, 159);
+}
+
+.caja {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img {
+    border-radius: 50%;
+}
+
+.caja p {
+    font-size: 12px;
+}
+
+.presentacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentacion h1 {
+    font-size: 35px;
+    color: rgb(117, 2, 2);
+}
+
+.presentacion p {
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Trade Winds", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
+
+footer img {
+    padding: 10px;
+    margin: 10px;
+    width: 1260px;
+    height: 330px;
+    align-items: center;
+}
